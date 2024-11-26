@@ -1,0 +1,15 @@
+config:
+  warningsAsErrors: true
+
+complexity:
+  TooManyFunctions:
+    ignorePrivate: true
+    active: false
+
+style:
+  MaxLineLength:
+    maxLineLength: 170
+
+naming:
+  MatchingDeclarationName:
+    active: false
